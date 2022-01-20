@@ -1,0 +1,7 @@
+<section class="transfer-fund">
+    <div class="error-msg">{{errorMsg}}</div>
+    <form (ngSubmit)="onTransferCoins()">
+        <input [(ngModel)]="amount" name="amount" type="number" placeholder="amount to transfer">
+        <button>send</button>
+    </form>
+</section>
